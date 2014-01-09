@@ -1,0 +1,21 @@
+{
+  "name": "take-gulp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/BeshoyLouka/take-gulp",
+  "authors": [
+    "Beshoy Louka <beshoy.louka@gmail.com>"
+  ],
+  "description": "take a gulp!",
+  "main": "app/",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}
