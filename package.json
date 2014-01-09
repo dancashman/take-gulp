@@ -10,7 +10,9 @@
     "jquery": "~2.1.0-beta3",
     "twitter-bootstrap-3.0.0": "~3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulpify": "~0.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
