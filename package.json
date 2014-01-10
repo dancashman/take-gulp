@@ -8,7 +8,8 @@
     "gulp": "~3.2.4",
     "gulp-util": "~2.2.8",
     "jquery": "~2.1.0-beta3",
-    "twitter-bootstrap-3.0.0": "~3.0.0"
+    "twitter-bootstrap-3.0.0": "~3.0.0",
+    "backbone": "~1.1.0"
   },
   "devDependencies": {
     "gulpify": "~0.1.0",

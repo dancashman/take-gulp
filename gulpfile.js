@@ -12,7 +12,6 @@ gulp.task('bundle', function() {
           insertGlobals : true,
           debug : true
         }))
-        .pipe(concat('dest.js'))
         .pipe(gulp.dest('app/js/'));
 });
 
