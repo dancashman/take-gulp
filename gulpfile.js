@@ -1,11 +1,19 @@
 var gulp = require('gulp');
 var recess = require('gulp-recess');
-var browserify = require('gulpify');
+// var browserify = require('gulpify');
+var browserify = require('gulp-browserify');
+var concat = require('gulp-concat');
+
 
 gulp.task('bundle', function() {
-  gulp.src('./app/js/main.js')
-    .pipe(browserify('bundle.js'))
-    .pipe(gulp.dest('app/js/'));
+    //single entry point to browserify
+    gulp.src(['app/js/main.js'])
+        .pipe(browserify({
+          insertGlobals : true,
+          debug : true
+        }))
+        .pipe(concat('dest.js'))
+        .pipe(gulp.dest('app/js/'));
 });
 
 gulp.task('js', function () {
